@@ -5,8 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            background: red;
+            /* width: 300px;
+            height: 300px; */
+        }
+        span{
+            background: green;
+            /* height: 300px;
+            width: 300px;
+            margin-top: 100px;
+            margin-left: 100px; */
+            display: inline-block;
+        }
+        a{
+            /* background: #000;
+            color: white;
+            margin-top: 10px;
+            padding: 10px;
+            display: inline-block; */
+        }
+        #unique-box:hover{
+            border: 3px solid red;
+            font-size: 30px;
+        }
+        #unique-box:focus{
+            color: red;
+            background-color: yellow;
+            
+        }
+        a:visited{
+            color: lime;
+        }
+
+        /* child  */
+        div{
+         color:red;
+         background: #000;
+         height: 100px;
+         width: 100px;
+         margin: 5px;
+    }
+    div:first-child{
+        color: white;
+        background: red;
+    }
+    </style>
 </head>
 <body>
     <!-- block elements -->
+    <h1>Boro Mama</h1>
+    <h1>Coto Khalu</h1>
+    <span>coto vai</span>
+    <span>meju vai</span><br>
+    <a href="https://www.google.com/">google</a>
+
+    <!-- focus  -->
+    <input type="text">
+    <input id="unique-box" type="text">
+    <input type="text">
+
+    <!-- visit a website identify -->
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjWv4inkdb1AhUmmWYCHfa8CmMYABACGgJzbQ&ae=2&ohost=www.google.com&cid=CAESWOD2YLwFB1r2a-DS09AwMGJGcs_npPsueIoPXhwBVDNtLRsL7O3puUrWk3S_l-JFGwzQHbMBMCdd8Qg0prA9ZenQAsSXghdXAqdJvITOCKoRX-kUeSxStcY&sig=AOD64_2unbr0tNiVaPDrftLiHlSYoh3XVw&q&adurl&ved=2ahUKEwifvP-mkdb1AhV-8HMBHTy8BIgQ0Qx6BAgEEAE">not visited</a>
+    <a href="https://www.google.com/">google</a>
+
+    <!-- child  -->
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </section>
 </body>
 </html>
